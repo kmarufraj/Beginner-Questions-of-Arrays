@@ -1,5 +1,5 @@
-#Question
-'''
+# Question
+"""
 You have a list of your favourite marvel super heros.
 heros=['spider man','thor','hulk','iron man','captain america']
 Using this find out,
@@ -12,28 +12,28 @@ Using this find out,
    So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
    Do that with one line of code.
 5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
-'''
+"""
 
-#Solution
+# Solution
 
-heros = ['spider man','thor','hulk','iron man','captain america']
+heros = ["spider man", "thor", "hulk", "iron man", "captain america"]
 
-#Question 1
+# Question 1
 print(len(heros))
 
-#Question 2
-heros.append('black panther')
+# Question 2
+heros.append("black panther")
 print(heros)
 
-#Question 3
-heros.remove('black panther')
-heros.insert(3, 'black panther')
+# Question 3
+heros.remove("black panther")
+heros.insert(3, "black panther")
 print(heros)
 
-#Question 4
-heros[1:3] = ['doctor strange']
+# Question 4
+heros[1:3] = ["doctor strange"]
 print(heros)
 
-#Question 5
+# Question 5
 heros.sort()
 print(heros)
